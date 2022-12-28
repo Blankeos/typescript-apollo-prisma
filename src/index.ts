@@ -1,3 +1,6 @@
+/**
+ * You can use npm run dev to start the web server and watch for any changes.
+ */
 import { ApolloServer } from "apollo-server";
 
 // 1
