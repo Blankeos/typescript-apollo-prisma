@@ -15,7 +15,8 @@ let links: NexusGenObjects["Link"][] = [
   },
 ];
 
-// Code-first Schema Defintions
+// Code-first Schema definitions for:
+// Doing code-first makes it possible to do "schema definitions" + "resolvers" at the SAME TIME.
 export const Link = objectType({
   name: "Link",
   definition(t) {
@@ -37,7 +38,7 @@ export const LinkQuery = extendType({
   },
 });
 
-// Mutations
+// Code-first Schema Definitions for:
 export const LinkMutation = extendType({
   type: "Mutation",
   definition(t) {
